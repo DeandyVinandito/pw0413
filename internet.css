@@ -1,0 +1,114 @@
+body
+{
+    background-image: url(image/img_1.png);
+}
+
+div.container
+header
+{
+   padding: 1em;
+   color: white;
+   background-color: black;
+   text-align: left;
+}
+img.logo
+{
+  width: 500px;
+  height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+article {
+    
+    padding: 1em;
+    overflow: hidden;
+    text-align: justify;
+    color: black;
+    margin-right: 450px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 285px;
+}
+footer.footer1
+{
+  background-color:grey;
+  text-align: center;
+  text-align: left;
+  margin-top: 5px;
+  margin-right: 465px;
+  height: 300px
+  
+}
+.bkprofil
+{
+  background-color: rgb(60,60,60);
+  width: 350px;
+  height: 100px;
+  padding: 1em;
+}
+img.profil
+{
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  border-radius: 10%;
+  float: left;
+}
+h2
+{
+  font-size: 20px;
+}
+
+h3
+{
+  font-size: 13px;
+}
+h4
+{
+  font-size: 10px;
+}
+
+
+footer
+{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+}
