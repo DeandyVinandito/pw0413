@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="login.css">
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="login.css"></link>
 </head>
 <body>
-
-<div class="login">
-<h1>LOGIN</h1>
-<form action="/action_page.php">
-  First name:<br>
-  <input type="text" name="Username" value="">
-  <br>
-  Last name:<br>
-  <input type="password" name="Password" value=""><br>
-  <input type="radio" name="gender" value="other">Remember Me<br>  
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
-</div>
-
+	<div class="cover1">
+		<img class="gg" src="E:\@D\Photoshop\Web Progrem\image\gg.png">
+		<div class="cover2">
+			<h1>SIGN IN</h1>
+				<form action="action_page.php">
+					<div class="imgcontainer">
+						<img src="E:\@D\Photoshop\Web Progrem\image\avatar.png" alt="Avatar" class="avatar">
+					</div>
+						<div class="container">
+							<label for="uname"><b>Username</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+							<label for="pass"><b>Password</b></label>
+							<input type="Password" placeholder="Enter Password" name="pass" required>
+							<button type="submit">Login</button>
+							<label>
+								<input type="checkbox" checked="checked" name="remember">Remember me
+							</label>
+						</div>
+								<div class="container" style="background-color: white">
+									<button type="button" class="cencelbtn" >Sign Up</button>
+									<span class="pass">Forget <a href="">password?</a>
+									</span>
+								</div>
+				</form>
+		</div>
+	</div>
 </body>
-</html>
